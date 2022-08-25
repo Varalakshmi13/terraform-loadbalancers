@@ -8,4 +8,3 @@ module "alb-private" {
   source = "./vendor/modules/alb"
   ALB_NAME = "roboshop-private"
   INTERNAL = true
-}
