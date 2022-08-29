@@ -10,4 +10,4 @@ module "alb-private" {
   ALB_NAME = "roboshop-private"
   INTERNAL = true
   ENV      = var.ENV
-}s
+}
