@@ -10,10 +10,10 @@ output "PRIVATE_LISTNER_ARN" {
   value = module.alb-private.LISTNER_ARN[0]
 }
 
-//output "PRIVATE_ALB_ADDRESS" {
-//  value = module.alb-private.ALB_ADDRESS
-//}
-//
-//output "PUBLIC_ALB_ADDRESS" {
-//  value = module.alb-public.ALB_ADDRESS
-//}
+output "PRIVATE_ALB_ADDRESS" {
+  value = module.alb-private.ALB_ADDRESS
+}
+
+output "PUBLIC_ALB_ADDRESS" {
+  value = module.alb-public.ALB_ADDRESS
+}
