@@ -7,7 +7,7 @@ output "PRIVATE_ALB_ARN" {
 }
 
 output "PRIVATE_LISTENER_ARN" {
-  value = module.alb-private.LISTNER_ARN[0]
+  value = module.alb-private.LISTENER_ARN[0]
 }
 
 output "PRIVATE_ALB_ADDRESS" {
